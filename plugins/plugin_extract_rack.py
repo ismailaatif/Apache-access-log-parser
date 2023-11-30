@@ -24,4 +24,3 @@ class ExtractRackActivities(Plugin):
             f.writelines('\n'.join(self.data))
         print('[+] Found (%d) matches!' % self.counter)
         print('[+] Saved to file: activities.txt')
-        print(self.keywords)
